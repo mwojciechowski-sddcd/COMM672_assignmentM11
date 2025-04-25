@@ -12,12 +12,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             font-family: "Raleway", sans-serif;
         }
         h1, h2, h3 {
             font-family: "Nanum Myeongjo", serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li div {
+            margin-left: 30px;
+            margin-top: -20px;
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "\f1b0";
+            font-family: "FontAwesome";
+            padding-right: 10px;
         }
 
         /*
@@ -67,11 +84,11 @@
                 <p><img src="images/cat-care.jpg" alt="cat care"/></p>
                 <p>Empower yourself with the knowledge to provide top-notch care for your feline companion. Cat Care Essentials can help you:</p>
                 <ul>
-                    <li>Discover resources on feline health, behavior, and wellness tailored to your cat's unique needs.</li>
-                    <li>Learn about proper nutrition, grooming tips, and preventative care strategies.</li>
-                    <li>Understand your cat's behavior and emotional needs to build a stronger bond.</li>
-                    <li>Access expert advice on creating a safe and stimulating environment for your cat.</li>
-                    <li>Stay up to date with seasonal care tips to ensure your cat's well-being year-round.</li>
+                    <li><div>Discover resources on feline health, behavior, and wellness tailored to your cat's unique needs.</div></li>
+                    <li><div>Learn about proper nutrition, grooming tips, and preventative care strategies.</div></li>
+                    <li><div>Understand your cat's behavior and emotional needs to build a stronger bond.</div></li>
+                    <li><div>Access expert advice on creating a safe and stimulating environment for your cat.</div></li>
+                    <li><div>Stay up to date with seasonal care tips to ensure your cat's well-being year-round.</div></li>
                 </ul>
             </div>
             <div class="feature-page-block">
@@ -79,11 +96,11 @@
                 <p><img src="images/cat-quizzes.jpg" alt="cat quizzes"/></p>
                 <p>Engage with fun and insightful quizzes that deepen your connection to cats. Purr-sonality Quizzes can help you:</p>
                 <ul>
-                    <li>Discover which cat breed aligns with your personality and lifestyle.</li>
-                    <li>Uncover interesting traits about various breeds and their care requirements.</li>
-                    <li>Share quiz results with your friends to spark cat-themed conversations.</li>
-                    <li>Learn tips for welcoming a new cat into your home based on your ideal match.</li>
-                    <li>Encourage interaction with your cat by understanding their unique traits.</li>
+                    <li><div>Discover which cat breed aligns with your personality and lifestyle.</div></li>
+                    <li><div>Uncover interesting traits about various breeds and their care requirements.</div></li>
+                    <li><div>Share quiz results with your friends to spark cat-themed conversations.</div></li>
+                    <li><div>Learn tips for welcoming a new cat into your home based on your ideal match.</div></li>
+                    <li><div>Encourage interaction with your cat by understanding their unique traits.</div></li>
                 </ul>
             </div>
             <div class="feature-page-block">
@@ -91,13 +108,34 @@
                 <p><img src="images/cat-community.jpg" alt="cat community"/></p>
                 <p>Join a vibrant community of cat lovers who share your passion for all things feline. The Interactive Community can help you:</p>
                 <ul>
-                    <li>Participate in cat photo and video contests to showcase your furry friend.</li>
-                    <li>Share heartwarming stories and engage in lively discussions with fellow enthusiasts.</li>
-                    <li>Connect with veterinarians and experts in our “Ask the Vet” Q&A section for personalized advice.</li>
-                    <li>Explore user-generated content for inspiration, from DIY cat toys to home setups.</li>
-                    <li>Build a support network with cat parents who understand and celebrate the joys of feline companionship.</li>
+                    <li><div>Participate in cat photo and video contests to showcase your furry friend.</div></li>
+                    <li><div>Share heartwarming stories and engage in lively discussions with fellow enthusiasts.</div></li>
+                    <li><div>Connect with veterinarians and experts in our “Ask the Vet” Q&A section for personalized advice.</div></li>
+                    <li><div>Explore user-generated content for inspiration, from DIY cat toys to home setups.</div></li>
+                    <li><div>Build a support network with cat parents who understand and celebrate the joys of feline companionship.</div></li>
                 </ul>
             </div>
+        </div>
+    </section>
+    <section>
+        <h2>FAQ</h2>
+        <div class="faq">
+            <div class="q">
+                <input type="checkbox" class="box" id="q1">What resources does Purrfect Vibes offer for cat care?
+            </div>
+            <div class="a" id="a1">We provide expert advice on feline health, behavior, and wellness, including tips on proper nutrition, grooming, and creating a safe, stimulating environment.</div>
+            <div class="q">
+                <input type="checkbox" class="box" id="q2">What can I learn from the Purr-sonality Quizzes?
+            </div>
+            <div class="a" id="a2">Our quizzes help you discover which cat breed matches your personality, uncover fun traits about various breeds, and provide tips for welcoming a new cat into your home.</div>               
+            <div class="q">
+                <input type="checkbox" class="box" id="q3">How can I engage with the Purrfect Vibes community?
+            </div>
+            <div class="a" id="a3">You can join cat photo and video contests, share stories, participate in discussions, and connect with experts in our “Ask the Vet” Q&A section.</div>
+            <div class="q">
+                <input type="checkbox" class="box" id="q4">Is Purrfect Vibes suitable for new cat owners?
+            </div>
+            <div class="a" id="a4">Absolutely! Whether you’re a new cat parent or a lifelong enthusiast, our resources, quizzes, and community are designed to support and celebrate your love for cats.</div>
         </div>
     </section>
     <footer>
