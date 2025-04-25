@@ -332,10 +332,21 @@ h1,h2,h3 {
 
 .overview div {
     width: 80%;
+    margin-top: 60px;
 }
 
-.overview h2 {
+.company h2 {
     text-align: left;
+}
+
+.company {
+    padding-top: 70px;
+}
+
+.team {
+    margin-top: 20px;
+    background-color:#efefef;
+    padding-top: 20px;
 }
 
 /**Tablet Styles**/
@@ -354,8 +365,24 @@ h1,h2,h3 {
         width: 40%;
     }
     .video {
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .overview {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .company {
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 0;
+    }
+    .company h2 {
+        text-align: center;
+    }
+    .team {
+        width: 100%;
     }
 }
 
@@ -497,9 +524,5 @@ h1,h2,h3 {
     }
     .full-width {
         grid-column: span 1;
-    }
-    .video {
-        width: 90%;
-        margin-left: 5%;
     }
 }
