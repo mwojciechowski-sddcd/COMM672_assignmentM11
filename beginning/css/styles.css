@@ -136,7 +136,7 @@ body.home {
 .banner h1 {
     color: #fff;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 .testimonials h2 {
     color: #fff;
@@ -332,7 +332,10 @@ footer img {
     height: 260px;
 }
 .cal {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
 }
 .overview {
     display: flex;
@@ -369,7 +372,6 @@ footer {
 }
 
 .team {
-    width: 100%;
     margin-bottom: -60px;
 }
 .testimonials {

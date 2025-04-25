@@ -23,18 +23,69 @@
         .team {
             visibility: visible;
             height: 100%;
+            padding-bottom: 0;
+            margin-left: -15%;
+            width: 1500px;
+            padding-left: 50px;
+            margin-bottom: 0px;
         }
 
         .about-container {
             display: flex;
             justify-content: space-between;
-            margin: 50px 50px;
+            padding: 30px 30px;
+            margin-left: 10%;
+            margin-right: 10%;
         }
 
         .about-block {
             display: flex;
             flex-direction: column;
             text-align: center;
+        }
+
+        .careers {
+            margin-top: 30px;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 30px;
+        }
+
+        @media only screen and (max-width: 1040px) {
+
+            .team {
+                width: 105%;
+                height: 100%;
+                padding-bottom: 0;
+                margin-left: -20px;
+                padding-left: 10px;
+                margin-bottom: 0;
+                justify-content: space-between;
+            }
+
+            .about-container {
+                display: grid;
+                grid-template-columns: auto auto;
+                width: 70%;
+                margin-left: 15%;
+            }
+
+            .about-block {
+                width: 100px;
+                margin-left: 0;
+            }
+
+            #last {
+                margin-left: 100%;
+            }
+
+            .careers {
+                margin-top: 30px;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 60px;
+                text-align: center;
+            }
         }
 
         /*
@@ -126,7 +177,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="about-block">
+                <div class="about-block" id="last">
                     <div><img src="images/head-ferris.png" alt="Ferris"/></div>
                     <div class="about-text">
                         <p>
@@ -139,10 +190,10 @@
         </section>
     </section>
 
-    <section class="container">
-        <h2>Careers</h2>
-        <p>At Purrfect Vibes, we're always on the lookout for passionate cat enthusiasts and creative minds to join our growing team. Whether you're a content creator, community manager, or digital strategist, there's a place for you to help us spread pawsitive energy. Think you're the purrfect fit?<br>
-            <a href="mailto:hr@purrfectvibes.com?subject=MY RESUME&cc=herbert@purrfectvibes.com">Submit your resume today!</a></p>
+    <section class="careers">
+        <div><h2>Careers</h2></div>
+        <div><p>At Purrfect Vibes, we're always on the lookout for passionate cat enthusiasts and creative minds to join our growing team. Whether you're a content creator, community manager, or digital strategist, there's a place for you to help us spread pawsitive energy. Think you're the purrfect fit?<br></div>
+        <div><a href="mailto:hr@purrfectvibes.com?subject=MY RESUME&cc=herbert@purrfectvibes.com">Submit your resume today!</a></p></div>
     </section>
 
     <footer>
