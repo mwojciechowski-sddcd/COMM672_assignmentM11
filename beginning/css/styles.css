@@ -349,6 +349,24 @@ h1,h2,h3 {
     padding-top: 20px;
 }
 
+.features a{
+    color: black;
+}
+
+.team {
+    visibility: collapse;
+    height: 0;
+}
+
+footer {
+    margin-top: 0;
+}
+
+.team {
+    width: 100%;
+    margin-bottom: -60px;
+}
+
 /**Tablet Styles**/
 @media only screen and (max-width: 1040px) {
     .community {
@@ -380,9 +398,6 @@ h1,h2,h3 {
     }
     .company h2 {
         text-align: center;
-    }
-    .team {
-        width: 100%;
     }
 }
 
