@@ -125,9 +125,18 @@ body.home {
     flex: auto;
     width: 32%;
 }
-.testimonials {
+.testimonials, .banner {
     background-color: #222e50;
     padding-bottom: 30px;
+}
+.banner {
+    padding-bottom: 0;
+    margin-top: -40px;
+}
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    padding: 40px;
 }
 .testimonials h2 {
     color: #fff;
@@ -157,6 +166,10 @@ body.home {
 .team-block {
     text-align: center;
     width: 25%;
+}
+.team {
+    visibility: collapse;
+    height: 0;
 }
 /**About Page**/
 .about .container {
@@ -315,13 +328,11 @@ footer img {
     width: 35px;
 }
 .video {
-    width: 90%;
+    width: 100%;
+    height: 260px;
 }
 .cal {
     width: 100%;
-}
-h1,h2,h3 {
-    font-family: "Nanum Myeongjo", serif;
 }
 .overview {
     display: flex;
@@ -332,7 +343,7 @@ h1,h2,h3 {
 
 .overview div {
     width: 80%;
-    margin-top: 60px;
+    margin-top: 0;
 }
 
 .company h2 {
@@ -340,7 +351,7 @@ h1,h2,h3 {
 }
 
 .company {
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .team {
@@ -349,13 +360,8 @@ h1,h2,h3 {
     padding-top: 20px;
 }
 
-.features a{
+.features a {
     color: black;
-}
-
-.team {
-    visibility: collapse;
-    height: 0;
 }
 
 footer {
@@ -365,6 +371,9 @@ footer {
 .team {
     width: 100%;
     margin-bottom: -60px;
+}
+.testimonials {
+    margin-top: 10px;
 }
 
 /**Tablet Styles**/
@@ -383,8 +392,9 @@ footer {
         width: 40%;
     }
     .video {
-        width: 90%;
-        margin-left: 5%;
+        width: 120%;
+        height: 170px;
+        margin-left: -10%;
     }
     .overview {
         display: flex;
