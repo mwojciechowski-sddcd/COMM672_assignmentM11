@@ -381,6 +381,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 60%;
+    height: 100%;
     border-radius: 10px;
     border: 1px solid lightgray;
     background-color: #efefef;
@@ -388,28 +389,34 @@ footer {
     margin-left: 20%;
 }
 .q {
-    height: 60px;
     padding-top: 20px;
     padding-left: 20px;
-    width: 100%
+    width: 100%;
+    display: block;
 }
 .a {
-    max-height: 0;
-    max-width: 0;
+    max-height: 0px;
     overflow: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
 }
-.q:nth-child(3) {
+.q:nth-child(2) {
     border: 1px solid lightgray;
 }
-.q:nth-child(5) {
+.q:nth-child(3) {
     border: 1px solid lightgray;
 }
 .box {
     display: none;
 }
-#q1:checked ~ #a1 {
-    max-height: 120px;
-    height: 100px;
+.q:hover, .l:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+.box:checked ~ .a {
+    max-height: 140px;
+    padding-bottom: 20px;
+    overflow: visible;
 }
 
 /**Tablet Styles**/
@@ -450,15 +457,11 @@ footer {
         width: 90%;
         margin-left: 5%;
     }
-    .q {
-        height: 60px;
-        padding-top: 20px;
-        padding-left: 20px;
-        width: 100%
-    }
-    .a {
-        max-height: 0;
-        overflow: hidden;
+    .box:checked ~ .a {
+        max-height: 140px;
+        width: 90%;
+        padding-bottom: 20px;
+        overflow: visible;
     }
 }
 
