@@ -411,6 +411,8 @@ footer {
 }
 .q:hover, .l:hover {
     background-color: grey;
+}
+.l:hover {
     cursor: pointer;
 }
 .box:checked ~ .a {
