@@ -438,7 +438,7 @@ footer {
     }
     .video {
         width: 120%;
-        height: 170px;
+        min-height: 170px;
         margin-left: -10%;
     }
     .overview {
